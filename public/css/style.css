@@ -1,0 +1,285 @@
+/* style du body */
+body{
+    background-color: #1C2331;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+/* style dans le header */
+
+    /* le header */
+header{
+    padding: 20px 0px;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: white;
+}
+    /* style commun */
+#login, #menu{
+    text-decoration: none;
+}
+
+    /* logo */
+#logo{
+    background-color: transparent;
+    opacity: 0.6;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 200px;
+    height: 80px;
+}
+    /* image profil internaute */
+#my_logo{
+    background-color: transparent;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+    /* login */
+#login{
+    width: 160px;
+    margin-top: 50px;
+    padding-top: 1.8%;
+    font-size: .70rem;
+}
+/* login hover */
+#login:hover{
+    color: #1C2331;
+}
+
+    /* menu */
+#menu{
+    position: fixed;
+    top: 0px;right: 15.5%;
+    width: 40px;
+    height: 100px;
+    background-color: #3F729B;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 5%;
+    z-index: 100;
+}
+
+/* slide menu */
+#main_menu{
+    background-color: #2e3951;
+}
+
+#main_menu p{
+    background-color: white;
+    opacity: .8;
+    height: 128px;
+    text-align: center;
+    padding-top: 55px;
+    margin-bottom: 0%;
+    font-size: 1.3em;
+    font-variant: small-caps;
+    font-family: "Roboto", sans-serif;
+}
+
+#main_menu div.navigation a{
+    display: block;
+    font-size: 1.2rem;
+    padding-left: 15%;
+    padding-top: 5px;
+    height: 60px;
+    font-weight: 200;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+    -moz-border-bottom: 0px solid transparent;
+    -webkit-border-bottom: 0px solid transparent;
+    -ms-border-bottom: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    -moz-transition: 2s all;
+    -webkit-transition: 2s all;
+    -ms-transition: 2s all;
+    transition: 2s all;
+}
+#main_menu div.navigation a:hover{
+    color: teal;
+    -moz-border-bottom: 1px solid gray;
+    -webkit-border-bottom: 1px solid gray;
+    -ms-border-bottom: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#main_menu div.navigation a i{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+#main_menu div.navigation a span{
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: -7px;
+}
+
+/* style dans le contenu principal */
+
+/* style du caroussel */
+#main_caroussel{
+    width: 70%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+    /* conteneur de slide */
+div.carousel-inner{
+    z-index: 5;
+    height: 400px;
+}
+div.carousel-inner div.carousel-item{
+    width: inherit;
+    height: inherit;
+}
+div.carousel-inner section.my_caroussel_content{
+    padding: 50px 6% 100px 10%;
+}
+        /* h5 dans le slide*/
+div.carousel-inner section.my_caroussel_content h5{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #3F729B;
+}
+    /* paragraphe dans le slide*/
+div.carousel-inner section.my_caroussel_content p{
+    margin-top: 50px;
+    color: #424242;
+    font-size: 1.2em;
+    text-align: justify;
+}
+    /* image du caroussel*/
+#main_caroussel img{
+    width: 100%;
+    height: 500px;
+}
+
+/* lien du slide */
+#main_caroussel ol.carousel-indicators{
+    position: absolute;
+    top: 370px;
+    left: 550px;
+}
+#main_caroussel ol.carousel-indicators li{
+    border-radius: 0px;
+    width: 15px;
+    height: 3px;
+}
+/* widget dashbord admin */
+div[class^="widget"]{
+    width: 200px;
+    height: 150px;
+    border-radius: 2px;
+}
+div[class^="widget"] p:nth-child(odd), div[class^="widget"] p:last-child span{
+   font-size: 1.7rem;
+}
+div[class^="widget"] p:last-child{
+    height: 40px;
+    padding-left: 10px;
+}
+div[class^="widget"] p:last-child span{
+    float: right;
+    margin-right: 10px;
+    background-color: #2E2E2E;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 2px 7px;
+    border-radius: 2px;
+}
+
+/*--pie-chart---*/
+.pie-chat:nth-child(1){
+    padding-left: 0;
+}
+.pie-chat:nth-child(3) {
+    padding-right: 0;
+}
+.photoday-grid:nth-child(1) {
+    padding-left: 0;
+}
+.photoday-grid:nth-child(3) {
+    padding-right: 0;
+}
+.piechat-section {
+    margin-top: 2em;
+    background: #e3caff;
+    padding: 4em 3em;
+    text-align: center;
+}
+
+.pie-title-center {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.pie-value {
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -20px;
+    line-height: 40px;
+}
+/*----*/
+
+/*content section*/
+
+.content-top-1 {
+    background-color: #fff;
+    padding: 1.8em;
+    border: 1px solid #ebeff6;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.top-content h5 {
+    font-size: 1.3em;
+    color: #0e62c7;
+    font-family: 'Comfortaa', cursive;
+}
+.top-content label {
+    font-size: 2.3em;
+    color: #777;
+}
+.content-top {
+    padding: 1em 0;
+}
+
+.top-content {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.top-content1 {
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+.pie-chat {
+    width: 33%;
+    float: left;
+}
+.top-content label {
+    font-size: 2em;
+}
+/*----*/
+
+/* footer */
+footer #footer_link h6{
+    display: inline-block;
+}
